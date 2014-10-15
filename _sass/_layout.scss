@@ -98,10 +98,15 @@
     font-size: 15px;
 }
 
-.contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    display: block;
+}
+
+.social-media-list li {
+  display: inline;
+  padding: 0.5rem;
 }
 
 .footer-hidden-text {
