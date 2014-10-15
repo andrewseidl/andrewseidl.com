@@ -118,6 +118,10 @@
   left: -100000px;
 }
 
+#license {
+  font-size: x-small;
+}
+
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
