@@ -1,12 +1,15 @@
 <footer class="site-footer">
 
 <div class="wrapper">
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+	<i class="fa fa-rss fa-2x"></i>
+  </a></p>
   <ul class="social-media-list">
     {% if site.github_username %}
     <li>
       <a href="https://github.com/{{ site.github_username }}">
         <i class="fa fa-github fa-2x"></i>
-        <span class="footer-hidden-text">GitHub: {{ site.github_username }}</span>
+        <span class="footer-hidden-text">github: {{ site.github_username }}</span>
       </a>
     </li>
     {% endif %}
@@ -15,7 +18,7 @@
     <li>
       <a href="https://twitter.com/{{ site.twitter_username }}">
         <i class="fa fa-twitter fa-2x"></i>
-        <span class="footer-hidden-text">Twitter: {{ site.twitter_username }}</span>
+        <span class="footer-hidden-text">twitter: {{ site.twitter_username }}</span>
       </a>
     </li>
     {% endif %}
@@ -24,7 +27,7 @@
     <li>
       <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
         <i class="fa fa-linkedin fa-2x"></i>
-        <span class="footer-hidden-text">LinkedIn: {{ site.linkedin_username }}</span>
+        <span class="footer-hidden-text">linkedin: {{ site.linkedin_username }}</span>
       </a>
     </li>
     {% endif %}
@@ -33,7 +36,7 @@
     <li>
       <a href="https://plus.google.com/{{ site.googleplus_username }}">
         <i class="fa fa-google-plus fa-2x"></i>
-        <span class="footer-hidden-text">Google+: {{ site.googleplus_username }}</span>
+        <span class="footer-hidden-text">google+: {{ site.googleplus_username }}</span>
       </a>
     </li>
     {% endif %}
@@ -42,7 +45,7 @@
     <li>
       <a href="https://news.ycombinator.com/user?id={{ site.hackernews_username }}">
         <i class="fa fa-hacker-news fa-2x"></i>
-        <span class="footer-hidden-text">HackerNews: {{ site.hackernews_username }}</span>
+        <span class="footer-hidden-text">hackernews: {{ site.hackernews_username }}</span>
       </a>
     </li>
     {% endif %}
@@ -50,10 +53,10 @@
   </ul>
 
   <p id="copyright">
-    Copyright 2014 <a href="mailto:me@andrewseidl.com">Andrew Seidl</a>.
+    copyright 2014 <a href="mailto:me@andrewseidl.com">andrew seidl</a>.
   </p>
   <p id="license">
-    Unless otherwise noted, all content is licensed under a <br /><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    unless otherwise noted, all content is licensed under a <br /><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">creative commons attribution-sharealike 4.0 international license</a>.
   </p>
 
 </div>
