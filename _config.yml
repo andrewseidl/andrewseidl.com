@@ -1,5 +1,6 @@
 # Site settings
 title: Andrew Seidl
+author: Andrew Seidl
 email: hi@andrewseidl.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andrewseidl.com" # the base hostname & protocol for your site
