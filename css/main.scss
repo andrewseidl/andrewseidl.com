@@ -40,6 +40,12 @@ $on-laptop:        800px;
 }
 
 
+i.fa-slack {
+  -ms-transform: rotate(19deg);
+  -webkit-transform: rotate(19deg);
+  transform: rotate(19deg);
+}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
