@@ -1,7 +1,7 @@
 # Site settings
 title: Andrew Seidl
 author: Andrew Seidl
-email: hi@andrewseidl.com
+email: hi@aas.io
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andrewseidl.com" # the base hostname & protocol for your site
 twitter_username: andrew_seidl
