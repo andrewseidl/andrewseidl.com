@@ -8,14 +8,14 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    text-align: center;
 }
 
 .site-title {
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
@@ -24,9 +24,7 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
-
+    margin-bottom: 10px;
     .menu-icon {
         display: none;
     }
