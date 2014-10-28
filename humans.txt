@@ -1,0 +1,19 @@
+# humanstxt.org
+# The humans and technologies responsible
+
+# HUMANS
+
+    Author: Andrew Seidl
+    Email: hi@aas.io
+    Twitter: @andrew_seidl
+    Location: Madison, Wisconsin
+
+# TECHNOLOGIES
+
+    Site: Jekyll, FontAwesome
+
+    Host: Amazon S3 + Route53 + CloudFlare
+
+    Editor: Vim
+
+    Source: https://github.com/andrewseidl/andrewseidl.com
