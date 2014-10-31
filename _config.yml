@@ -13,3 +13,4 @@ hackernews_username: aseidl
 
 # Build settings
 markdown: kramdown
+exclude: [Gemfile, Gemfile.lock, s3_website.yml]
