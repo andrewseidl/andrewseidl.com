@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Contact &amp; Social
+title: Contact
 permalink: /contact/
 ---
 
-Email is preferred.  I try to respond within two days; feel free to try other methods if I haven't responded in this time.  Responses will come from `andrew@{ thisdomain }`.
+Email is preferred.  I usually respond within two days, so feel free to try other methods if I haven't responded in this time.  Responses will come from `andrew@{ thisdomain }`.
 
 Unsolicited phone calls will be ignored. SMS has the same response time as email. MMS will be mustached.
 
