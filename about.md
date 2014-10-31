@@ -11,3 +11,4 @@ The postings on this site are my own and do not necessarily represent the postin
 
 Referral links may be used. These will be accompanied by links marked as \[noref\], which will not include referral tracking.
 
+[Google Analytics](http://www.google.com/analytics/) and [CloudFlare](https://www.cloudflare.com) are used to monitor traffic on this site.
