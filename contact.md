@@ -6,7 +6,7 @@ permalink: /contact/
 
 Email is preferred.  I usually respond within two days, so feel free to try other methods if I haven't responded in this time.  Responses will come from `andrew@{ thisdomain }`.
 
-Unsolicited phone calls will be ignored. SMS has the same response time as email. MMS will be mustached.
+Unsolicited phone calls will be ignored. SMS has the same response time as email.
 
 |-:|-
 | <i class="fa fa-envelope-o"></i> | <a href="mailto:{{ site.email }}">`{{ site.email }}`</a>
