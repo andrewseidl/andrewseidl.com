@@ -11,6 +11,8 @@ linkedin_username: andrewseidl
 googleplus_username: +AndrewSeidlcom
 hackernews_username: aseidl
 
+google_analytics: UA-15724703-4
+
 # Build settings
 markdown: kramdown
 exclude: [Gemfile, Gemfile.lock, s3_website.yml]
