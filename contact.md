@@ -6,8 +6,6 @@ permalink: /contact/
 
 Email is preferred.  I usually respond within two days, so feel free to try other methods if I haven't responded in this time.  Responses will come from `andrew@{ thisdomain }`.
 
-Unsolicited phone calls will be sent to voicemail. SMS has the same response time as email.
-
 |-:|-
 | <i class="fa fa-envelope-o"></i> | <a href="mailto:{{ site.email }}">`{{ site.email }}`</a>
 | <i class="fa fa-github"></i> | <a href="https://github.com/{{ site.github_username }}">`{{ site.github_username }}`</a>
@@ -16,4 +14,4 @@ Unsolicited phone calls will be sent to voicemail. SMS has the same response tim
 | <i class="fa fa-google-plus"></i> | <a href="https://plus.google.com/{{ site.googleplus_username }}">`{{ site.googleplus_username }}`</a>
 | <i class="fa fa-slack"></i> | `aseidl` on freenode
 | <i class="fa fa-hacker-news"></i> | <a href="https://news.ycombinator.com/user?id={{ site.hackernews_username }}">`{{ site.hackernews_username }}`</a>
-| <i class="fa fa-phone"></i> | <a href="tel:+1337465HACK">`+1 337.465.4225`</a>
+| <i class="fa fa-phone"></i> | <a href="tel:+166923NLOGN">`+1 669.236.5646`</a>
