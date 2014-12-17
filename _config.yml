@@ -15,7 +15,7 @@ google_analytics: UA-15724703-4
 
 # Build settings
 markdown: kramdown
-exclude: [Gemfile, Gemfile.lock, s3_website.yml]
+exclude: [Gemfile, Gemfile.lock, s3_website.yml, vendor]
 
 gems:
     - jekyll-sitemap
