@@ -12,5 +12,6 @@ deploy:
   bucket: andrewseidl.com
   local-dir: _site
   acl: public_read
+  skip_cleanup: true
   on:
     repo: andrewseidl/andrewseidl.com
