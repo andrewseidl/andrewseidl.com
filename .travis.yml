@@ -4,8 +4,13 @@ rvm:
 - 2.1.1
 cache: bundler
 script: bundle exec jekyll build
-after_success: bundle exec s3_website push
-env:
-  global:
-  - secure: ZygN6c0CeaYmEt2C6TlHjcSnPm6OaU4QVlwfRIGQGo4kr9gfCs1uKM3nYh66seqZhT/3RspS+EgChUvpP+hda29DViz2McdqUtoMiVmjPK3nyTndMNjhIf8jJ8fEJ1CJ/sTM8F8v9kaCySBLta5Z0Kbjjz4f/0Zo/t7zmvyilws=
-  - secure: Ec35NRdFUYwCeXx+JBlbCLNt9Ya5wsw5HkUDwkhAtwEIOBY9i/usRYbsZAK0XXzg4yaaIlL93mB6qwoAqUKtEOB7sQuIqzwDI6xbUuLHf53tUJiWNnZjhjhTyghRgfOgxF4AmYuV/OFQfc/3FQM0YmELimrwFDXdZYRToHIWthE=
+deploy:
+  provider: s3
+  access_key_id: AKIAJQWAC4ACI2DAMF6Q
+  secret_access_key:
+    secure: PeFov7O2l7gAJdwrOE+ERn1ZHnULiS6ve2ZbDbwIugX/wLWXHOtOjYSjsnNc9gX106LI1aOWFyn7/hlFtlzVpIG8dvtS27uKK4PTc8yc5vDLsYAyN102lJ6K6+c62GGHUa1kqc6C0P60aKoA4kfRMN2RpuLtQ6//aEP1PhbaA/M=
+  bucket: andrewseidl.com
+  local-dir: _site
+  acl: public_read
+  on:
+    repo: andrewseidl/andrewseidl.com
