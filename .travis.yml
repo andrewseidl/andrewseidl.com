@@ -3,15 +3,27 @@ language: ruby
 rvm:
 - 2.1.1
 cache: bundler
-script: bundle exec jekyll build
+script:
+  - bundle exec jekyll build
+  - bundle exec jekyll build --drafts --destination _site_drafts
 deploy:
-  provider: s3
-  access_key_id: AKIAJQWAC4ACI2DAMF6Q
-  secret_access_key:
-    secure: PeFov7O2l7gAJdwrOE+ERn1ZHnULiS6ve2ZbDbwIugX/wLWXHOtOjYSjsnNc9gX106LI1aOWFyn7/hlFtlzVpIG8dvtS27uKK4PTc8yc5vDLsYAyN102lJ6K6+c62GGHUa1kqc6C0P60aKoA4kfRMN2RpuLtQ6//aEP1PhbaA/M=
-  bucket: andrewseidl.com
-  local-dir: _site
-  acl: public_read
-  skip_cleanup: true
-  on:
-    repo: andrewseidl/andrewseidl.com
+  - provider: s3
+    access_key_id: AKIAJQWAC4ACI2DAMF6Q
+    secret_access_key:
+      secure: PeFov7O2l7gAJdwrOE+ERn1ZHnULiS6ve2ZbDbwIugX/wLWXHOtOjYSjsnNc9gX106LI1aOWFyn7/hlFtlzVpIG8dvtS27uKK4PTc8yc5vDLsYAyN102lJ6K6+c62GGHUa1kqc6C0P60aKoA4kfRMN2RpuLtQ6//aEP1PhbaA/M=
+    bucket: andrewseidl.com
+    local-dir: _site
+    acl: public_read
+    skip_cleanup: true
+    on:
+      repo: andrewseidl/andrewseidl.com
+  - provider: s3
+    access_key_id: AKIAJQWAC4ACI2DAMF6Q
+    secret_access_key:
+      secure: PeFov7O2l7gAJdwrOE+ERn1ZHnULiS6ve2ZbDbwIugX/wLWXHOtOjYSjsnNc9gX106LI1aOWFyn7/hlFtlzVpIG8dvtS27uKK4PTc8yc5vDLsYAyN102lJ6K6+c62GGHUa1kqc6C0P60aKoA4kfRMN2RpuLtQ6//aEP1PhbaA/M=
+    bucket: drafts.andrewseidl.com
+    local-dir: _site_drafts
+    acl: public_read
+    skip_cleanup: true
+    on:
+      repo: andrewseidl/andrewseidl.com
